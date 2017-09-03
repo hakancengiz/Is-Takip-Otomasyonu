@@ -1,0 +1,111 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(../resimler/site/bg.png);
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.textbox {
+	width: 200px;
+	height: 18px;
+	border-radius: 10px;
+	font-size: 18px;
+	padding: 5px;
+	outline: none;
+	transition: 0.3s;
+	margin-bottom: 5px;
+}
+.textbox:focus {
+	box-shadow: 0px 0px 4px 0px #0099FF;
+	border-radius: 5px;
+}
+.dropdown {
+	width: 212px;
+	height: 33px;
+	border-radius: 10px;
+	font-size: 18px;
+	padding: 5px;
+	outline: none;
+	transition: 0.3s;
+	margin-bottom: 5px;
+}
+.buton {
+	width: 100px;
+	height: 35px;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.dropdown:focus {
+	box-shadow: 0px 0px 4px 0px #0099FF;
+	border-radius: 5px;
+}
+.baslik {
+	width: 1000px;
+	text-align: center;
+	margin: 100px auto 20px auto;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+	text-shadow: 0px 0px 1px #000;
+}
+.giris-kapsul {
+	width: 300px;
+	height: auto;
+	color: #eee;
+	padding: 20px 50px 20px 50px;
+	box-shadow: 0px 0px 8px 0px #000000;
+	margin: 10px auto 0px auto;
+	border-radius: 20px;
+	font-size: 17px;
+	background: #fff url(../resimler/site/giris_kapsul_bg.png);
+	font-family: Verdana, Geneva, sans-serif;
+}
+.menu {
+	width: 600px;
+	height: auto;
+	padding: 20px 50px 20px 50px;
+	box-shadow: 0px 0px 8px 0px #000000;
+	margin: 70px auto 70px auto;
+	border-radius: 20px;
+	font-size: 17px;
+	background: #fff url(../resimler/site/giris_kapsul_bg.png);
+	font-family: Verdana, Geneva, sans-serif;
+}
+.menu-baslik {
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 19px;
+	text-shadow: 0px 0px 1px #000;
+	color: #FFF;
+	margin-bottom: 30px;
+}
+.kutu {
+	width: 500px;
+	height: 50px;
+	background: #CCC;
+	border-radius: 8px;
+	margin: 10px auto 10px auto;
+	box-shadow: 0px 0px 8px 0px #000000;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	line-height: 50px;
+	transition: 0.3s;
+}
+.kutu:hover {
+	background: #eee;
+	box-shadow: 0px 0px 8px 0px #fff;
+}
+.listele_table {
+	color: #FFF;
+}
+.listele_table a {
+	color: #CC3;
+	text-shadow: 0px 0px 10px #000000;
+}
